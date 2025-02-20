@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+pandas = "*"
+elasticsearch = "*"
+scikit-learn = "*"
+flask = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+python-dotenv = "*"
+
+[dev-packages]
+tqdm = "*"
+notebook = "*"
+hyperopt = "*"
+questionary = "*"
+requests = "*"
+pgcli = "*"
+ipywidgets = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.11"
